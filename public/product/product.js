@@ -309,73 +309,38 @@ function generatePopUpInPopUp(body,button){
               </form>
             </div>
             ` 
-            $('.telegram-form').on('submit', function (event) {
+
+            const TOKEN="5816402593:AAFlOqYpp53qRCAqkqwh5V65OLHar7lSnMU"
+            const CHAT_ID="-849232886"
+
+            const URL_API=`https://api.telegram.org/bot${TOKEN}/sendMessage`
+
+            document.querySelector('.telegram-form').addEventListener('submit',function(e){
+              e.preventDefault();
+
+              let message = `<b>Заявка с сайта!!</b>\n
+              <b>Отправитель: </b> ${this.name.value}\n
+              <b>Почта: </b> ${this.email.value}\n
+              <b>Телефон: </b> ${this.phone.value}`
               
-              event.stopPropagation();
-              event.preventDefault();
+
+
+              window.axios.post(URL_API,{
+                chat_id:CHAT_ID,
+                parse_mode:'html',
+                text:message
+              })
+              .then((res)=>{
+                this.name.value=''
+                this.email.value=''
+                this.phone.value=''
+                generateHTMLPopUpGood()
+              })
+              .catch((err)=>{
+                console.warn(err)
+              })
+            })
             
-              let form = this,
-                  submit = $('.submit', form),
-                  data = new FormData(),
-                  files = $('input[type=file]')
-            
-            
-              $('.submit', form).val('Отправка...');
-              // $('input, textarea', form).attr('disabled','');
-            
-              data.append( 'name', 		$('[name="name"]', form).val() );
-              data.append( 'phone', 		$('[name="phone"]', form).val() );
-              data.append( 'email', 		$('[name="email"]', form).val() );
-              data.append( 'text', 		$('[name="text"]', form).val() );
-              data.append( 'file', 		$('[name="file"]', form).val() );
-             
-            
-              files.each(function (key, file) {
-                  let cont = file.files;
-                  if ( cont ) {
-                      $.each( cont, function( key, value ) {
-                          data.append( key, value );
-                      });
-                  }
-              });
-              
-              $.ajax({
-                  url: 'ajax.php',
-                  type: 'POST',
-                  data: data,
-                  cache: false,
-                  dataType: 'json',
-                  processData: false,
-                  contentType: false,
-                  xhr: function() {
-                      let myXhr = $.ajaxSettings.xhr();
-            
-                      if ( myXhr.upload ) {
-                          myXhr.upload.addEventListener( 'progress', function(e) {
-                              if ( e.lengthComputable ) {
-                                  let percentage = ( e.loaded / e.total ) * 100;
-                                      percentage = percentage.toFixed(0);
-                                  $('.submit', form)
-                                      .html( percentage + '%' );
-                              }
-                          }, false );
-                      }
-            
-                      return myXhr;
-                  },
-                  error: function( jqXHR, textStatus ) {
-                      // Тут выводим ошибку
-                  },
-                  complete: function() {
-                      // Тут можем что-то делать ПОСЛЕ успешной отправки формы
-                      generateHTMLPopUpGood()
-                      console.log('Complete')
-                      form.reset() 
-                  }
-              });
-            
-              return false;
-            });
             
         }else{
           body.innerHTML=`
@@ -393,73 +358,37 @@ function generatePopUpInPopUp(body,button){
             </form>
           </div>
           ` 
-          $('.telegram-form').on('submit', function (event) {
 
-            event.stopPropagation();
-            event.preventDefault();
-          
-            let form = this,
-                submit = $('.submit', form),
-                data = new FormData(),
-                files = $('input[type=file]')
-          
-          
-            $('.submit', form).val('Отправка...');
-            // $('input, textarea', form).attr('disabled','');
-          
-            data.append( 'name', 		$('[name="name"]', form).val() );
-            data.append( 'phone', 		$('[name="phone"]', form).val() );
-            data.append( 'email', 		$('[name="email"]', form).val() );
-            data.append( 'text', 		$('[name="text"]', form).val() );
-            data.append( 'file', 		$('[name="file"]', form).val() );
-           
-          
-            files.each(function (key, file) {
-                let cont = file.files;
-                if ( cont ) {
-                    $.each( cont, function( key, value ) {
-                        data.append( key, value );
-                    });
-                }
-            });
-            
-            $.ajax({
-                url: 'ajax.php',
-                type: 'POST',
-                data: data,
-                cache: false,
-                dataType: 'json',
-                processData: false,
-                contentType: false,
-                xhr: function() {
-                    let myXhr = $.ajaxSettings.xhr();
-          
-                    if ( myXhr.upload ) {
-                        myXhr.upload.addEventListener( 'progress', function(e) {
-                            if ( e.lengthComputable ) {
-                                let percentage = ( e.loaded / e.total ) * 100;
-                                    percentage = percentage.toFixed(0);
-                                $('.submit', form)
-                                    .html( percentage + '%' );
-                            }
-                        }, false );
-                    }
-          
-                    return myXhr;
-                },
-                error: function( jqXHR, textStatus ) {
-                    // Тут выводим ошибку
-                },
-                complete: function() {
-                    // Тут можем что-то делать ПОСЛЕ успешной отправки формы
-                    generateHTMLPopUpGood()
-                    console.log('Complete')
-                    form.reset() 
-                }
-            });
-          
-            return false;
-          });
+          const TOKEN="5816402593:AAFlOqYpp53qRCAqkqwh5V65OLHar7lSnMU"
+            const CHAT_ID="-849232886"
+
+            const URL_API=`https://api.telegram.org/bot${TOKEN}/sendMessage`
+
+            document.querySelector('.telegram-form').addEventListener('submit',function(e){
+              e.preventDefault();
+
+              let message = `<b>Заявка с сайта!!</b>\n
+              <b>Отправитель: </b> ${this.name.value}\n
+              <b>Почта: </b> ${this.email.value}\n
+              <b>Телефон: </b> ${this.phone.value}`
+              
+
+
+              window.axios.post(URL_API,{
+                chat_id:CHAT_ID,
+                parse_mode:'html',
+                text:message
+              })
+              .then((res)=>{
+                this.name.value=''
+                this.email.value=''
+                this.phone.value=''
+                generateHTMLPopUpGood()
+              })
+              .catch((err)=>{
+                console.warn(err)
+              })
+            })
         }
         
       }
