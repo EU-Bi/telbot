@@ -209,7 +209,7 @@ function bodyUnLock(){
     return false;
   });
   if(localStorage.language=='ua'){
-    const ukraine = {lat:50.427161,lng:30.3641669}
+    const ukraine = {lat:50.44304253765321,lng:30.360420122915183}
 
     genMap(ukraine)
 
