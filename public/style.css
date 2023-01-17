@@ -83,6 +83,7 @@ a{
     background-color: var(--white);
     position: relative;
     width: 100%;
+    height: 100vh;
   }
   .flex-wrapper-fourteen {
     background-size: cover;
@@ -91,42 +92,45 @@ a{
     display: flex;
     background-image: cover;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
-    height: 100%;
+    height: 70vh;
     /* align-items: flex-start; */
   }
   .wrapp-hedder{
-    width: 100%;
   }
   .hedder {
     padding: 40px ;
-    margin-bottom: 149px;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 9999;
+    background: rgba(255, 255, 255, 0.81);
   }
   .bg-header{
     background-color: white;
     opacity: 80%;
   }
   .header-logo-1 {
-    margin-right: 30px;
+
   }
   .menju {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    height: 7vh;
     width: 80%;
     justify-content: space-around;
   }
+  .header-logo-1{
+    height: 7vh;
+  }
   .home {
     color: var(--dark-slate-gray);
-    margin-top: 31.93px;
-    padding-right: 30px;
     display: flex;
     font-family: var(--inter-20-regular-family);
     font-size: var(--inter-20-regular-size);
@@ -134,7 +138,6 @@ a{
     line-height: var(--inter-20-regular-line-height);
   }
   .about-us {
-    margin-top: 31.93px;
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
@@ -143,7 +146,6 @@ a{
     line-height: var(--inter-20-regular-line-height);
   }
   .product-services {
-    margin-top: 31.93px;
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
@@ -152,7 +154,6 @@ a{
     line-height: var(--inter-20-regular-line-height);
   }
   .sustomers-testimonies {
-    margin-top: 31.93px;
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
@@ -161,7 +162,6 @@ a{
     line-height: var(--inter-20-regular-line-height);
   }
   .social-media {
-    margin-top: 31.93px;
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
@@ -170,7 +170,6 @@ a{
     line-height: var(--inter-20-regular-line-height);
   }
   .jazyk {
-    margin-top: 20.86px;
     padding: 0 0 1.38px;
     height: 46.23px;
     border: 1px solid #D8D8D8;
@@ -230,10 +229,13 @@ a{
     text-align: center;
     padding-bottom: 30px;
     justify-content: center;
-    font-family: var(--inter-128-bold-family);
-    font-size: var(--inter-128-bold-size);
-    font-weight: var(--inter-128-bold-weight);
-    line-height: var(--inter-128-bold-line-height);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12vh;
+    text-align: center;
+
+    color: #3F423F;
   }
   .flex-wrapper-two {
     position: relative;
@@ -244,28 +246,29 @@ a{
     text-align: center;
     justify-content: center;
     margin-bottom: 30px;
-    font-family: var(--inter-28-regular-family);
-    font-size: var(--inter-28-regular-size);
-    font-weight: var(--inter-28-regular-weight);
-    line-height: var(--inter-28-regular-line-height);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    text-align: center;
   }
   .rectangle-7 {
-    height: 410px;
     border: 1px solid var(--white);
     border-radius: 27px;
     backdrop-filter: blur(29px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100px;
+    height: 40vh;
+    width: 80vh;
     justify-content: center;
   }
   .knopka {
     background-color: var(--sandy-brown);
     border-radius: 65px;
     border: 0;
-    width: 290px;
-    height: 80px;
+    width: 30vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,41 +286,51 @@ a{
     color: azure;
   }
   .wrapp-logotipy{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
   }
   .logotipy {
-    display: flex;
-    margin-top: 70.81px;
+    display: flex; 
+    height: 20vh;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
   }
   .flex-wrapper-three {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 29.19px 23.77px 28.58px 28px;
+    width: 12vh;
+    height: 12vh;
+    /* padding: 5px 23.77px 28.58px 28px; */
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .inmobi-logo-c6149c0b2e-seeklogo {
-    width: 67px;
-    height: 61px;
+    width: 8vh;
+    height: 6vh;
   }
   .flex-wrapper-four {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 43.19px 15.77px 46.58px 18px;
+    width: 12vh;
+    height: 12vh;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items:center;
   }
   .m2o-logo-square {
-    width: 85px;
-    height: 29px;
+    width: 8vh;
+    height: 4vh;
   }
   .flex-wrapper-five {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 20.19px 21.77px 28.58px 21px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header-logo-1-two {
     width: 75.72px;
@@ -327,15 +340,17 @@ a{
     top: 46.76px;
   }
   .main-square {
-    width: 76px;
-    height: 70px;
-    position: relative;
+    width: 8vh;
+    height: 6vh;
   }
   .flex-wrapper-six {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 27.19px 20.97px 38.58px 21.8px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header-logo-2 {
     width: 75.72px;
@@ -345,100 +360,108 @@ a{
     top: 46.76px;
   }
   .mediasmart {
-    width: 76px;
-    height: 53px;
-    position: relative;
+    width: 8vh;
+    height: 6vh;
   }
   .flex-wrapper-seven {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 46.76px 19.3px 47.51px 23.75px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .header-logo-3 {
-    width: 75.72px;
-    height: 24.5px;
-    position: relative;
-  }
+  
   .v-1606029317799-header-logo {
-    width: 77px;
-    height: 21px;
-    position: absolute;
-    left: 22.59px;
-    top: 48.19px;
+    width: 8vh;
+    height: 3vh;
   }
   .flex-wrapper-eight {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 50.19px 19.38px 43.58px 23.39px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .vungle {
-    width: 76px;
-    height: 25px;
-    position: relative;
+    width: 8vh;
+    height: 4vh;
   }
   .flex-wrapper-nine {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 20.19px 24.59px 35.58px 29.18px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .header-logo-5 {
+  /* .header-logo-5 {
     width: 75.72px;
     height: 24.5px;
     position: absolute;
     left: 23.01px;
     top: 46.76px;
-  }
+  } */
   .shar-1 {
-    width: 65px;
-    height: 63px;
-    position: relative;
+    width: 8vh;
+    height: 6vh;
   }
   .flex-wrapper-ten {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 45.19px 17.79px 46.58px 17.98px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .shar-2 {
-    width: 83px;
-    height: 27px;
-    position: relative;
+    width: 8vh;
+    height: 4vh;
   }
   .flex-wrapper-eleven {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 33.19px 25px 39.58px 28.77px;
-    position: relative;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .shar-3 {
-    width: 65px;
-    height: 46px;
-    position: relative;
+    width: 8vh;
+    height: 6vh;
   }
   .flex-wrapper-twelve {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 50.19px 11.77px 41.58px 17px;
+    width: 12vh;
+    height: 12vh;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   .amazon-logo {
-    width: 90px;
-    height: 27px;
+    width: 9vh;
+    height: 4vh;
   }
   .flex-wrapper-thirteen {
     background-color: var(--olive-drab);
     border-radius: 50%;
-    padding: 40.19px 12.54px 44.58px 11.23px;
+    width: 12vh;
+    height: 12vh;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   .gothamads {
-    width: 95px;
-    height: 34px;
+    width: 8vh;
+    height: 4vh;
   }
   .image-1 {
     width: 340px;
@@ -446,8 +469,7 @@ a{
   }
   .futer {
     background-color: var(--sandy-brown);
-    margin-top: 80px ;
-    height: 200px;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -456,13 +478,16 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
   }
   .menju-two {
-    margin-top: 34px;
     display: flex;
     justify-content: space-between;
     width: 60%;
+  }
+  .header-logo-1-three{
+    height: 7vh;
   }
   .home-two {
     color: var(--white);
