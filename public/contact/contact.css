@@ -162,39 +162,39 @@ a{
 .flex-wrapper-fourteen {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   position: sticky;
   top: 0;
   z-index: 9999;
+  height: 15vh;
+  margin-bottom: 149px;
 }
 .wrapp-hedder{
   width: 100%;
 }
 .hedder {
-  padding: 40px 0;
-  
+  padding: 40px ;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  
 }
 .bg-header{
   background-color: white;
   opacity: 80%;
 }
 .header-logo-1 {
-  margin-right: 30px;
+  height: 7vh;
 }
 .menju {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  height: 7vh;
   width: 80%;
   justify-content: space-around;
 }
 .home {
-  margin-top: 31.93px;
-  padding-right: 30px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -203,7 +203,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .about-us {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -212,7 +211,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .product-services {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -221,7 +219,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .sustomers-testimonies {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -230,7 +227,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .social-media {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -239,8 +235,8 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .jazyk {
-  margin-top: 20.86px;
   padding: 0 0 1.38px;
+  width: 140px;
   height: 46.23px;
   border: 1px solid #D8D8D8;
   border-radius: 30px;
@@ -277,7 +273,7 @@ a{
 .flex-wrapper-one {
   display: flex;
   align-items: center;
-  padding-left: 5px;
+  margin-left: 5px;
 }
 .ua-two {
   margin-top: 1.92px;
@@ -285,7 +281,6 @@ a{
 }
 .flex-wrapper-two {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding:0 5px;
 }
@@ -303,7 +298,6 @@ a{
   justify-content: space-around;
   margin-bottom: 60px;
   position: relative;
-  margin-top: 150px;
 }
 .wrapp-contact-but{
   display: flex;
@@ -530,7 +524,7 @@ button{
 /* futter */
 .futer {
   background-color: var(--sandy-brown);
-  height: 200px;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -539,13 +533,16 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 .menju-two {
-  margin-top: 34px;
   display: flex;
   justify-content: space-between;
   width: 60%;
+}
+.header-logo-1-two{
+  height: 7vh;
 }
 .home-two {
   color: var(--white);

@@ -135,58 +135,46 @@
 a{
   text-decoration: none;
 }
-.customers {
+.contact {
   background-color: var(--white);
   width: 100%;
+  height: 100vh;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
 }
-.flex-wrapper-fourteen {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.wrapp-hedder{
-  width: 100%;
-}
 .hedder {
-  padding: 40px 0;
-  margin-bottom: 149px;
+  padding: 40px ;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
 }
 .bg-header{
   background-color: white;
   opacity: 80%;
-  z-index: 9999;
 }
 .header-logo-1 {
-  margin-right: 30px;
+  height: 7vh;
 }
 .menju {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  height: 7vh;
   width: 80%;
   justify-content: space-around;
 }
 .home {
   color: var(--dark-slate-gray);
   display: flex;
-  padding-right: 30px;
-  margin-top: 31.93px;
   font-family: var(--inter-20-regular-family);
   font-size: var(--inter-20-regular-size);
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
 .about-us {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -195,7 +183,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .product-services {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -204,7 +191,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .sustomers-testimonies {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -213,7 +199,6 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .social-media {
-  margin-top: 31.93px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
@@ -222,8 +207,8 @@ a{
   line-height: var(--inter-20-regular-line-height);
 }
 .jazyk {
-  margin-top: 20.86px;
   padding: 0 0 1.38px;
+  width: 140px;
   height: 46.23px;
   border: 1px solid #D8D8D8;
   border-radius: 30px;
@@ -260,7 +245,7 @@ a{
 .flex-wrapper-one {
   display: flex;
   align-items: center;
-  padding-left: 5px;
+  margin-left: 5px;
 }
 .ua-two {
   margin-top: 1.92px;
@@ -273,8 +258,8 @@ a{
 }
 /* main */
 .main{
-  padding-top: 150px;
-  margin-bottom: 270px;
+  padding-top: 5vh;
+  margin-bottom: 7.3vh;
 }
 .wrapp-main{
   margin: 0 auto;
@@ -297,8 +282,8 @@ a{
 .num-2 {
   background-color: var(--transparent-sandy-brown-2);
   border-radius: 27px;
-  width: 350px;
-  height: 350px;
+  width: 40vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -336,8 +321,9 @@ a{
 
 /* futter */
 .futer {
+  margin-top: 7vh;
   background-color: var(--sandy-brown);
-  height: 200px;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,13 +332,16 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 .menju-two {
-  margin-top: 34px;
   display: flex;
   justify-content: space-between;
   width: 60%;
+}
+.header-logo-1-two{
+  height: 7vh;
 }
 .home-two {
   color: var(--white);

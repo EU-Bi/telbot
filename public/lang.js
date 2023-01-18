@@ -62,32 +62,24 @@ export const about={
     companies expand their business through strategic
     online advertising and end-to-end marketing
     solutions.<br />
-    <br />
     Our integrated approach and unrivalled expertise
     allow clients to discover new market opportunities
     and see better results and traffic for their
     brand.<br />
-    <br />
     Brandeme will help you target the right audiences in
     the right locations in the right way, and build your
     business through compelling marketing.<br />
-    <br />
-    <br />
-    <br />
     Brandeme is a digital marketing agency specializing
     in online advertising and media buying. It provides
     end-to-end marketing and digital support services to
     drive traffic and improve online results for clients
     seeking to expand their brand towards new buyers.<br />
-    <br />
     Brandeme also enables companies to establish
     ownership and autonomy over their marketing efforts
     with our custom campaign analysis services and
     relevant statistics.<br />
-    <br />
     We create effective ad campaigns on the most
     influential demand-side platforms. 
-    <br />
     <br />
     Before starting we always carry out in-depth
     research of the market niché you want to take in a
@@ -95,7 +87,7 @@ export const about={
     future strategy with a segment overview, competitors
     positioning, customers analysis and a sales forecast
     guarantee us a long-term success.<br />`,
-    "ua":"Brandeme - це багатоканальне маркетингове агентство, яке допомагає компаніям розширювати свій бізнес за допомогою стратегічної інтернет-реклами та комплексних маркетингових рішень.<br /> <br /> Наш комплексний підхід та неперевершена експертиза дозволяють клієнтам відкривати для себе нові ринкові можливості та бачити кращі результати та трафік для свого бренду.<br /><br />Brandeme допоможе вам орієнтуватися на потрібну аудиторію в потрібних місцях у правильний спосіб і будувати свій бізнес за допомогою переконливого маркетингу.<br /><br /><br /> <br /> Brandeme - агентство цифрового маркетингу, що спеціалізується на інтернет-рекламі та медіа-баїнгу. Вона надає комплексні послуги з маркетингу та цифрової підтримки для залучення трафіку та покращення онлайн-результатів для клієнтів, які прагнуть розширити свій бренд для нових покупців.<br /><br />Brandeme також дозволяє компаніям встановити власність та автономію над своїми маркетинговими зусиллями за допомогою наших індивідуальних послуг з аналізу кампаній та відповідної статистики.<br /><br />Ми створюємо ефективні рекламні кампанії на найвпливовіших платформах з боку попиту.<br /><br />Перед початком роботи ми завжди проводимо глибоке дослідження ринкової ніші, яку ви хочете зайняти в бажаному регіоні EMEA. Ретельне планування майбутньої стратегії з оглядом сегментів, позиціонуванням конкурентів, аналізом клієнтів і прогнозом продажів гарантує нам довгостроковий успіх.<br /><br />"
+    "ua":"Brandeme - це багатоканальне маркетингове агентство, яке допомагає компаніям розширювати свій бізнес за допомогою стратегічної інтернет-реклами та комплексних маркетингових рішень.<br /> Наш комплексний підхід та неперевершена експертиза дозволяють клієнтам відкривати для себе нові ринкові можливості та бачити кращі результати та трафік для свого бренду.<br />Brandeme допоможе вам орієнтуватися на потрібну аудиторію в потрібних місцях у правильний спосіб і будувати свій бізнес за допомогою переконливого маркетингу.<br />Brandeme - агентство цифрового маркетингу, що спеціалізується на інтернет-рекламі та медіа-баїнгу. Вона надає комплексні послуги з маркетингу та цифрової підтримки для залучення трафіку та покращення онлайн-результатів для клієнтів, які прагнуть розширити свій бренд для нових покупців.<br />Brandeme також дозволяє компаніям встановити власність та автономію над своїми маркетинговими зусиллями за допомогою наших індивідуальних послуг з аналізу кампаній та відповідної статистики.<br />Ми створюємо ефективні рекламні кампанії на найвпливовіших платформах з боку попиту.<br />Перед початком роботи ми завжди проводимо глибоке дослідження ринкової ніші, яку ви хочете зайняти в бажаному регіоні EMEA. Ретельне планування майбутньої стратегії з оглядом сегментів, позиціонуванням конкурентів, аналізом клієнтів і прогнозом продажів гарантує нам довгостроковий успіх.<br /><br />"
   },
   "ourvalues":{
     "en":`Our <strong class="our-values-principles-emphasis-1" >values</strong> &amp; principles`,
