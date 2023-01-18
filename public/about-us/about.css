@@ -244,10 +244,10 @@ a{
 }
 .flex-wrapper-nine {
   margin: 0 auto;
-  margin-top: 12vh;
+  margin-top: 13vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -262,7 +262,7 @@ a{
 .about-us-two {
   color: var(--dark-slate-gray-4);
   display: flex;
-  margin-bottom: 29px;
+  margin-bottom: 20px;
   font-family: var(--inter-36-regular-family);
   font-size: var(--inter-36-regular-size);
   font-weight: var(--inter-36-regular-weight);
@@ -281,7 +281,7 @@ a{
 }
 .our-values-principles {
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     color: var(--dark-slate-gray);
     font-family: var(--inter-36-medium-family);
     font-size: var(--inter-36-medium-size);
@@ -301,13 +301,15 @@ a{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 7vh;
+  height: 35vh;
+  margin-top: 2vh;
 }
 .wrapp-content{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 1200px;
+  height: 100%;
   justify-content: center;
 }
 .num-1 {

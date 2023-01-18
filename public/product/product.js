@@ -481,7 +481,7 @@ function generateHTMLPopUpGood(){
     <img class="popup_img_good" src="./img/good.png" width="112px" height="112px" alt="" srcset="">
     <p class="popup_text">Дякуємо за звернення</p>
     <span class="popup_span">Ми зв'яжемося з вами найближчим часом</span>
-    <a class="popup_button" href="../index.html">Перейти на головну</a>
+    <a class="popup_button">Перейти на головну</a>
   </form>
 </div>`
   }
@@ -489,12 +489,20 @@ function generateHTMLPopUpGood(){
   popupOpen(popup)
   
   const popupCloseIconGood = document.querySelector('.popup_close')
+  const popupRedirect = document.querySelector('.popup_button')
+
+  popupRedirect.addEventListener('click', (e)=>{
+    e.preventDefault()
+    document.location.href='../index.html'
+  })
+  
   if(popupCloseIconGood){
     popupCloseIconGood.addEventListener('click', (e)=>{
       e.preventDefault()
       popupClose(popup)
     
       popupBody.innerHTML = ''
+
     })
   }
 }

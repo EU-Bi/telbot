@@ -138,7 +138,6 @@ a{
 .contact {
   background-color: var(--white);
   width: 100%;
-  height: 100vh;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -259,7 +258,7 @@ a{
 /* main */
 .main{
   padding-top: 5vh;
-  margin-bottom: 7.3vh;
+  min-height: 75vh;
 }
 .wrapp-main{
   margin: 0 auto;
@@ -289,7 +288,7 @@ a{
   justify-content: center;
   position: relative;
   align-items: center;
-  margin-bottom: 25px;
+
 }
 .num-3-343534535 {
   width: 12.45%;
@@ -321,7 +320,6 @@ a{
 
 /* futter */
 .futer {
-  margin-top: 7vh;
   background-color: var(--sandy-brown);
   height: 10vh;
   display: flex;

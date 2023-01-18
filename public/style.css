@@ -83,7 +83,7 @@ a{
     background-color: var(--white);
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
   .flex-wrapper-fourteen {
     background-size: cover;
@@ -224,15 +224,14 @@ a{
     position: relative;
   }
   .brandeme {
-    color: var(--dark-slate-gray-4);
     display: flex;
     text-align: center;
     padding-bottom: 30px;
     justify-content: center;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 12vh;
+    font-weight: 900;
+    font-size: 15vh;
     text-align: center;
 
     color: #3F423F;
@@ -300,16 +299,16 @@ a{
     background-color: var(--olive-drab);
     border-radius: 50%;
     border: 1px solid black;
-    width: 12vh;
-    height: 12vh;
+    width: 10vh;
+    height: 10vh;
     /* padding: 5px 23.77px 28.58px 28px; */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .inmobi-logo-c6149c0b2e-seeklogo {
-    width: 8vh;
-    height: 6vh;
+    width: 48px;
+    height: 43px;
   }
   .flex-wrapper-four {
     background-color: var(--olive-drab);
@@ -322,8 +321,8 @@ a{
     align-items:center;
   }
   .m2o-logo-square {
-    width: 8vh;
-    height: 4vh;
+    width: 61px;
+    height: 20px;
   }
   .flex-wrapper-five {
     background-color: var(--olive-drab);
@@ -343,8 +342,8 @@ a{
     top: 46.76px;
   }
   .main-square {
-    width: 8vh;
-    height: 6vh;
+    width: 54px;
+    height: 50px;
   }
   .flex-wrapper-six {
     background-color: var(--olive-drab);
@@ -364,8 +363,8 @@ a{
     top: 46.76px;
   }
   .mediasmart {
-    width: 8vh;
-    height: 6vh;
+    width: 54px;
+    height: 38px;
   }
   .flex-wrapper-seven {
     background-color: var(--olive-drab);
@@ -379,8 +378,8 @@ a{
   }
   
   .v-1606029317799-header-logo {
-    width: 8vh;
-    height: 3vh;
+    width: 54px;
+    height: 15px;
   }
   .flex-wrapper-eight {
     background-color: var(--olive-drab);
@@ -393,8 +392,8 @@ a{
     align-items: center;
   }
   .vungle {
-    width: 8vh;
-    height: 4vh;
+    width: 54px;
+    height: 17px;
   }
   .flex-wrapper-nine {
     background-color: var(--olive-drab);
@@ -414,8 +413,8 @@ a{
     top: 46.76px;
   } */
   .shar-1 {
-    width: 8vh;
-    height: 6vh;
+    width: 46px;
+    height: 45px;
   }
   .flex-wrapper-ten {
     background-color: var(--olive-drab);
@@ -428,8 +427,8 @@ a{
     align-items: center;
   }
   .shar-2 {
-    width: 8vh;
-    height: 4vh;
+    width: 59px;
+    height: 19px;
   }
   .flex-wrapper-eleven {
     background-color: var(--olive-drab);
@@ -442,8 +441,8 @@ a{
     align-items: center;
   }
   .shar-3 {
-    width: 8vh;
-    height: 6vh;
+    width: 47px;
+    height: 32px;
   }
   .flex-wrapper-twelve {
     background-color: var(--olive-drab);
@@ -456,8 +455,8 @@ a{
     align-items: center;
   }
   .amazon-logo {
-    width: 9vh;
-    height: 4vh;
+    width: 64px;
+    height: 19px;
   }
   .flex-wrapper-thirteen {
     background-color: var(--olive-drab);
@@ -470,8 +469,8 @@ a{
     align-items: center;
   }
   .gothamads {
-    width: 8vh;
-    height: 4vh;
+    width: 67px;
+    height: 24px;
   }
   .image-1 {
     width: 340px;
